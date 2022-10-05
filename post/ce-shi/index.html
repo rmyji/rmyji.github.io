@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>测试 | Gridea</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://rmyji.github.io/favicon.ico?v=1664958643353">
+<link rel="stylesheet" href="https://rmyji.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="
+        *{
+          font-family:Georgia;
+        }
+        #content{
+           position:absolute;
+           width:12..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://rmyji.github.io">
+        <img src="https://rmyji.github.io/images/avatar.png?v=1664958643353" class="site-logo">
+        <h1 class="site-title">Gridea</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://rmyji.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">测试</h2>
+            <div class="post-date">2022-10-05</div>
+            
+            <div class="post-content" v-pre>
+              <style>
+        *{
+          font-family:Georgia;
+        }
+        #content{
+           position:absolute;
+           width:1200px;
+           height:400px;
+           left:50%;
+           top:50%;
+           margin-top:-300px;
+           margin-left:-600px;
+           border:1px dashed  #2f96b4;
+           padding-top:50px;
+           border-radius:20px;
+        }
+        #contentRemark{
+           position:absolute;
+           width:1200px;
+           height:300px;
+           left:50%;
+           top:56%;
+           margin-left:-600px;
+           padding-top:50px;
+           text-indent:2em;
+           font-size:20px;
+           line-height:2em;
+        }
+        .PoetryName{
+            font-size:xx-large;font-weight:bold;line-height:1.5em;width:1.5em; 
+            float:right;font-size:36px;padding-top:40px;
+            padding-right:20px;
+        }
+        .PoetryPerson{
+            width:1.5em; float:right;line-height:2em;padding-top:70px;
+            font-size:18px;
+            color:#d3524e;
+        }
+        .PoetryContent{
+            width:1.5em; float:right;line-height:1.5em;padding-top:30px;
+            font-size:20px;
+        }
+
+        .PoetryContent:hover{
+            width:1.5em; float:right;line-height:1.5em;padding-top:30px;
+            font-size:20px;
+            cursor:pointer;
+            color:#d3524e;
+        }
+</style>
+<div id="content">
+    <div class="PoetryName">爱莲说</div>
+    <div style="width:1.5em; float:right;"> </div>
+    <div class="PoetryPerson">周 敦 颐 </div>
+    <div style="width:1.5em; float:right;"> </div>
+    <div class="PoetryContent">水陆草木之花　</div>
+    <div class="PoetryContent">可爱者甚蕃　</div>
+    <div class="PoetryContent">晋陶渊明独爱菊　</div>
+    <div class="PoetryContent">自李唐来　</div>
+    <div class="PoetryContent">世人甚爱牡丹　</div>
+    <div class="PoetryContent">予独爱莲之出淤泥而不染　</div>
+    <div class="PoetryContent">濯清涟而不妖　</div>
+    <div class="PoetryContent">中通外直　</div>
+    <div class="PoetryContent">不蔓不枝　</div>
+    <div class="PoetryContent">香远益清　</div>
+    <div class="PoetryContent"> 亭亭净植　</div>
+    <div class="PoetryContent"> 可远观而不可亵玩焉　</div>
+    <div class="PoetryContent">予谓菊花之隐逸者也　</div>
+    <div class="PoetryContent">牡丹花之富贵者也　</div>
+    <div class="PoetryContent">莲花之君子者也　</div>
+    <div class="PoetryContent">噫菊之爱　</div>
+    <div class="PoetryContent">陶后鲜有闻　</div>
+    <div class="PoetryContent"> 莲之爱　</div>
+    <div class="PoetryContent"> 同予者何人　</div>
+    <div class="PoetryContent"> 牡丹之爱　</div>
+    <div class="PoetryContent"> 宜乎众矣　</div>
+</div>
+            </div>
+            
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
